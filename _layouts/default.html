@@ -26,7 +26,44 @@
     <section class="main-content">
       {{ content }}
 
+      <!-- customizing -->
       <footer class="site-footer">
+        <div>
+          <p>
+          <b>Starred MediaSoft</b> offer free software asking nothing in return.<br>
+          Nevertheless, You can show your appreciation for <b>Starred MediaSoft</b> products and support future development by donating.
+          </p>
+
+          <p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+              <!-- Identify your business so that you can collect the payments. -->
+              <input type="hidden" name="business"
+                value="fabrizio.stellato@gmail.com">
+
+              <!-- Specify a Donate button. -->
+              <input type="hidden" name="cmd" value="_donations">
+
+              <!-- Specify details about the contribution -->
+              <input type="hidden" name="item_name" value="Starred MediaSoft">
+              <?php
+              if (isset($item_number)) {
+              ?>
+                <input type="hidden" name="item_number" value="<?php echo $item_number ?>">
+              <?php
+              }
+              ?>
+
+              <!-- Display the payment button. -->
+              <input type="image" name="submit" border="0"
+              src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+              alt="PayPal - The safer, easier way to pay online">
+              <img alt="" border="0" width="1" height="1"
+              src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+            </form>
+          </p>
+        </div>
+
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
         {% endif %}
