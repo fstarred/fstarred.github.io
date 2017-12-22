@@ -3,10 +3,6 @@
 ## Software
 [YAMP](https://fstarred.github.io/yamp/)
 
-{% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }})
-{% endfor %}
-
 [![yamp_logo](/assets/yamp/yamp_logo.png)](https://github.com/fstarred/yamp/releases)
 ###### YAMP (Yet Another Modular Player) project is a pluggable player for windows. It can features a lot of tools for musicians and music listeners as well
 
