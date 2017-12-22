@@ -19,3 +19,5 @@ function _dmFollowup(file) { if (typeof DMAds === 'undefined') _dmBootstrap('cdn
 [YAMP](https://fstarred.github.io/yamp/)
 ![yamp_logo](/assets/yamp/yamp_logo.png)
 ###### YAMP (Yet Another Modular Player) project is a pluggable player for windows. It can features a lot of tools for musicians and music listeners as well
+
+<div data-type="ad" data-publisher="fstarred.github.io" data-format="160x600" data-zone="ros" data-tags="music%2caudio%2clogging"></div> 
