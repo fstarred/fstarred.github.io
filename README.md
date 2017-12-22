@@ -1,4 +1,4 @@
-<div data-type="ad" data-publisher="fstarred.github.io" data-format="728x90" data-zone="ros" data-tags="music%2caudio%2clogging"></div> 
+<div data-type="ad" data-publisher="fstarred.github.io" data-format="728x90" data-zone="yamp" data-tags="music%2caudio%2cmedia%2cplayer"></div> 
 
 ## Software
 [YAMP](https://fstarred.github.io/yamp/)
