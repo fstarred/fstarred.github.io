@@ -13,10 +13,6 @@ function _dmFollowup(file) { if (typeof DMAds === 'undefined') _dmBootstrap('cdn
 
 </script>
 
-
-
-# Welcome to Starred MediaSoft
-
 <div data-type="ad" data-publisher="fstarred.github.io" data-format="728x90" data-zone="ros" data-tags="music%2caudio%2clogging"></div> 
 
 ## Software
