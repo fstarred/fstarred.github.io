@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+title: Starred MediaSoft GitHub Page
+description: Your favourite open source software
+site.github.show_downloads: true
