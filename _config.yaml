@@ -1,4 +1,7 @@
 theme: jekyll-theme-cayman
-title: Starred MediaSoft GitHub Page
-description: Your favourite open source software
+title: "Starred MediaSoft GitHub Page"
+description: "Your favourite open source software"
+logo: "/assets/logo_SM.png"
+plugins:
+- jekyll-seo-tag
 site.github.show_downloads: true
